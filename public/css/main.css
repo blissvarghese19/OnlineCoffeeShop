@@ -1,0 +1,48 @@
+/* the styles for the main page body elements */
+body {
+    padding: 20px;
+    background-image: url(/images/16.jpg);
+    background-size:cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main section{
+    float: right;
+}
+main h1{
+    font-weight: normal;
+    text-align: center;
+    color: #f65007;
+}
+section .submission{
+    text-align: center; 
+}
+section .submission input{
+    border: 2px solid blueviolet;
+    background-color:maroon;
+    font-size: 24px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px 30px 0 20px;
+    margin-top: 120px;
+    margin-right: 160px;
+}
+aside{
+	width: 300px;
+	float: left;
+	padding-left: 20px;
+	padding-bottom: 20px;
+    text-align: justify;
+}
+aside h2{
+    color: black;
+    text-shadow: 2px 2px chocolate;
+    text-align: center;
+    font-family: Impact;
+    padding-bottom: 1em;
+}
+aside p{
+    color: blueviolet;
+    font-family: Bahnschrift;
+    font-style: italic;
+}

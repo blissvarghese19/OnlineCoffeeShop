@@ -1,0 +1,68 @@
+/*Developed by Bliss Kizhuvallil Varghese | Student Id : 8733343 | For Web design and development Assignment 03*/
+/*reset selector*/
+*{
+	margin: 0em;
+	padding: 0em;
+}
+header{
+    height: 100px;
+}
+/*image of the header set to float left and adjust height and width*/
+header img{
+    float: left;
+    width:130px;
+    margin-top: -30px;
+}
+/*h2 inside the header is styled*/
+header h1{
+    text-transform: uppercase;
+    font-family: Impact;
+    color:blueviolet;
+    margin-top: 18px;
+    margin-left: 290px;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+}
+/*h4 inside the header style with font and margin*/
+header h3{
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 220px;
+    color:black;
+    text-shadow: 1px 1px chocolate;
+    font-size: 22px;
+    font-style: italic;
+}
+/*styles for top menu which is displayed in all pages*/
+.top_menu{
+    background-color:transparent;
+    border: 1px solid white;
+    box-shadow: 0 0 10px #2c2c2c;
+    color: chocolate;
+    border-radius: 20px;
+    height: 40px;
+    width:400px;
+    float: right;
+    margin-top:-30px;
+}
+.top_menu ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+.top_menu ul li{
+    display: inline-block;
+    width: 60px;
+}
+.top_menu ul li:hover,a:focus{
+    background-color: blueviolet;
+}
+.top_menu ul li a{
+    color: chocolate;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+    font-size: 18px;
+    font-family:cursive;
+}

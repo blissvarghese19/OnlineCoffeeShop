@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+</head>
+<body>
+    <!--header of the body-->
+    <header>
+        <!--image is added which is the logo-->
+        <img src="images/8.png" alt="Coffee logo">
+        <!--headings added with different size-->
+        <h1>Its Coffee Time</h1>
+        <h3>More Expresso , Less Depresso</h3>
+        <%- include('layouts/nav'); -%>
+    </header>
+    <!--main part of the body-->
+    <main>
+        <section>
+            <form action="product" method="POST">
+               <div class="submission">
+                    <input type="submit" value="Choose Your Coffee!">
+               </div>
+            </form>
+            </form>    
+        </section>
+        <!--aside part of the body-->
+        <aside>
+            <h2>Coffee A Day</h2>
+            <p>Time For Coffee, is India’s favourite hangout for coffee and conversations.we strive to provide 
+            the best experience to our guests.Our coffees are sourced from thousands of small coffee planters, 
+            who made us who we are today and we're glad to be a part of their lives. We opened our first cafe in 
+            1996  the youth and the young at heart immediately took to the cafe, and it continues to be one of the 
+            most happening places in the city. Time For Coffee to the youth is a “hangout” spot where they meet 
+            people, make conversations, and have a whole lot of fun over steaming cups of great coffee.
+            if your travel takes you there, do stop by our outlets to get a taste from back home or you can order
+            within 10km distance from us!</p>
+        </aside>
+    </main>
+    </body>
+    <%- include('layouts/footer'); -%>

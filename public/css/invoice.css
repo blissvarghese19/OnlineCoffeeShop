@@ -1,0 +1,48 @@
+/*styles for the invoice page*/
+body {
+    padding: 20px;
+    background-image: url(/images/11.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section h1{
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main .customer{
+    background-image: url(/images/26.jpg);
+    background-size: cover;
+    padding-bottom: 40px;
+    border: 5px solid blueviolet;
+    width:350px;
+    height: 100px;
+    margin-left:430px;
+    color:blue;
+    font-family:DejaVu Sans Mono, monospace;
+}
+.customerData th{
+    text-align: left;
+}
+.invoiceData table{
+        background-image: url(/images/27.jpg);
+        margin-left: 460px;
+        margin-top: 10px;
+        box-shadow: 0 0 20px #2c2c2c;
+        color:blue;
+        width: 300px;
+        height:100px; 
+        text-align: center;
+}
+.invHead,.invCol,.right{
+    border: 1px solid black;
+}
+.continue{
+    border:3px solid blueviolet;
+    text-align: center;
+    width:500px;
+    height: 70px;
+    margin-left: 350px;
+    margin-top: 100px;
+}
